@@ -1,33 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
-<title>Page Title</title>
+<title>Home Page</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
+<link rel="stylesheet" href="style.css">
 <style>
-    #videoBG {
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
-    }
+
 </style>
 <script src="">
-    document.getElementById('vid').play();
 </script>
 
 <body>
-    <div id="vedeoBG">
-        <video width="500" autoplay muted id="vid" playsinline>
-            <source src=".\resources\SnapSave.io.security-cam.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
+    <h1> Welcome To Home Page </h1>
+    <nav class=".button">
+        <button class=".button" onclick="window.location.href='index.html'">
+            <a>Home</a>
+        </button>
+        <button class=".button" onclick="window.location.href='video1.html'">
+            <a>Video1</a>
+        </button>
+        <button class=".button" onclick="window.location.href='video2.html'">
+            <a>Video2</a>
+        </button>
+    </nav>
 </body>
 
 </html>
