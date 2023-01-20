@@ -7,22 +7,19 @@
 <style>
 
 </style>
-<script src="">
+<script type="text/javascript">
+    var password = "admin";
+var x = prompt("Enter in the password "," ");
+if (x.toLowerCase() == password) {
+ alert("You've entered in the right password");
+ window.location = "home.html";
+}
+else {
+ window.location = "bad.html";
+}
 </script>
 
 <body>
-    <h1> Welcome To Home Page </h1>
-    <nav class=".button">
-        <button class=".button" onclick="window.location.href='index.html'">
-            <a>Home</a>
-        </button>
-        <button class=".button" onclick="window.location.href='video1.html'">
-            <a>Video1</a>
-        </button>
-        <button class=".button" onclick="window.location.href='video2.html'">
-            <a>Video2</a>
-        </button>
-    </nav>
 </body>
 
 </html>
